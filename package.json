@@ -1,0 +1,21 @@
+{
+  "name": "mern-inter",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/ovdink/mern-interview.git",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "Kirill O.",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
