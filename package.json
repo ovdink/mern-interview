@@ -5,13 +5,17 @@
   "repository": "https://github.com/ovdink/mern-interview.git",
   "scripts": {
     "start": "node app.js",
-    "server": "nodemon app.js"
+    "server": "nodemon app.js",
+    "client": "yarn start --prefix client"
   },
   "author": "Kirill O.",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "config": "^3.2.5",
     "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.8.9"
   },
   "devDependencies": {
